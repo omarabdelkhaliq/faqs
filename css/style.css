@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    background-image: url(../img/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f3ebfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 20px ;
+}
+.faqs {
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.logo img {
+    width: 30px;
+}
+.logo h1 {
+    color: #2B0D2F;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.contant {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 30px;
+}
+.table {
+    border-bottom: 1px solid #f3ebfc;
+}
+.quition {
+    color: #2B0D2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 0px;
+    font-size: 15px;
+}
+.more {
+    width: 25px;
+    cursor: pointer;
+}
+.less {
+    display: none;
+    width: 25px;
+    cursor: pointer;
+}
+.answer {
+    color: #8C7896;
+    font-size: 14px;
+    padding-bottom: 15px;
+    display: none;
+}
+/* mobil */
+@media(max-width:768px){
+    body {
+        background-image: url(../img/background-pattern-mobile.svg);
+    }
+}
