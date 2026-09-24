@@ -66,6 +66,9 @@ body {
     padding-bottom: 15px;
     display: none;
 }
+.open {
+    display: block;
+}
 /* mobil */
 @media(max-width:768px){
     body {

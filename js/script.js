@@ -6,13 +6,13 @@ quitions.forEach(function(q) {
    let minusIcon = q.querySelector('.less');
    
    plusIcon.addEventListener('click', function() {
-      answer.style.display = 'block';
+      answer.classList.add('open');
       plusIcon.style.display = 'none';
       minusIcon.style.display = 'block';
    });
    
    minusIcon.addEventListener('click', function() {
-      answer.style.display = 'none';
+      answer.classList.remove('open');
       minusIcon.style.display = 'none';
       plusIcon.style.display = 'block';
    });
